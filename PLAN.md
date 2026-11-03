@@ -28,6 +28,6 @@ How to test: page tab shows the icon and title; review the checklist Claude Code
 How to test: open https://sgarfan-inovex.github.io/ on the phone; test Call, WhatsApp, Email, links, and Save Contact on iPhone and/or Android.
 
 ## Milestone 6 — QR code
-- [ ] Generate qr/qr-code.png (min 1000x1000 px) and qr/qr-code.svg for https://sgarfan-inovex.github.io/
-- [ ] Dark on light, quiet zone, error correction level M or higher
+- [x] Generate qr/qr-code.png (min 1000x1000 px) and qr/qr-code.svg for https://sgarfan-inovex.github.io/
+- [x] Dark on light, quiet zone, error correction level M or higher
 How to test: scan the QR from the computer screen with 2 different phones; it opens the live site. Print a test copy at card size and scan it.

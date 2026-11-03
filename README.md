@@ -10,6 +10,7 @@ Live site: https://sgarfan-inovex.github.io/
 - `styles.css` — the styles
 - `saeed-garfan.vcf` — contact card for the Save Contact button
 - `assets/` — favicon, home-screen icon and link preview image
+- `qr/` — QR code to the live site (`qr-code.svg` for print, `qr-code.png` 1025x1025 px)
 - `SPEC.md` — what the site must contain
 - `PLAN.md` — milestones and progress
 - `CLAUDE.md` — rules for Claude Code
