@@ -254,6 +254,7 @@ button {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   cursor: pointer;
+  transition: filter 0.2s, transform 0.1s;
 }
 
 .btn-save .icon {
@@ -261,9 +262,12 @@ button {
   stroke-width: 2;
 }
 
-.btn-save:disabled {
-  opacity: 0.45;
-  cursor: not-allowed;
+.btn-save:hover {
+  filter: brightness(1.08);
+}
+
+.btn-save:active {
+  transform: scale(0.98);
 }
 
 /* ---------- Section headings ---------- */

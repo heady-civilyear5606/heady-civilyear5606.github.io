@@ -12,8 +12,8 @@ How to test: open index.html in a browser by double-clicking it. All content is 
 How to test: open in the browser, then use the browser's mobile view (F12 -> device toolbar) at 375px and 320px. Nothing overflows, buttons are easy to tap, it looks like the card.
 
 ## Milestone 3 — Save Contact (vCard)
-- [ ] saeed-garfan.vcf (vCard 3.0) with all contact fields
-- [ ] "Save Contact" button that downloads it
+- [x] saeed-garfan.vcf (vCard 3.0) with all contact fields
+- [x] "Save Contact" button that downloads it
 How to test: click the button on the computer, open the downloaded file, check every field is correct.
 
 ## Milestone 4 — Final polish
