@@ -8,6 +8,8 @@ Live site: https://sgarfan-inovex.github.io/
 ## Files
 - `index.html` — the page
 - `styles.css` — the styles
+- `saeed-garfan.vcf` — contact card for the Save Contact button
+- `assets/` — favicon, home-screen icon and link preview image
 - `SPEC.md` — what the site must contain
 - `PLAN.md` — milestones and progress
 - `CLAUDE.md` — rules for Claude Code

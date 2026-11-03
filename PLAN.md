@@ -17,9 +17,9 @@ How to test: open in the browser, then use the browser's mobile view (F12 -> dev
 How to test: click the button on the computer, open the downloaded file, check every field is correct.
 
 ## Milestone 4 — Final polish
-- [ ] Favicon and link preview image (Open Graph tags, absolute URLs to https://sgarfan-inovex.github.io/)
-- [ ] Page title and description
-- [ ] Accessibility check (contrast, alt text, button labels) and quick speed check
+- [x] Favicon and link preview image (Open Graph tags, absolute URLs to https://sgarfan-inovex.github.io/)
+- [x] Page title and description
+- [x] Accessibility check (contrast, alt text, button labels) and quick speed check
 How to test: page tab shows the icon and title; review the checklist Claude Code reports.
 
 ## Milestone 5 — Publish on GitHub Pages
