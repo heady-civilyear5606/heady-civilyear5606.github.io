@@ -23,8 +23,8 @@ How to test: click the button on the computer, open the downloaded file, check e
 How to test: page tab shows the icon and title; review the checklist Claude Code reports.
 
 ## Milestone 5 — Publish on GitHub Pages
-- [ ] Create GitHub repository "sgarfan-inovex.github.io" (public) and push
-- [ ] Turn on GitHub Pages
+- [x] Create GitHub repository "sgarfan-inovex.github.io" (public) and push
+- [x] Turn on GitHub Pages
 How to test: open https://sgarfan-inovex.github.io/ on the phone; test Call, WhatsApp, Email, links, and Save Contact on iPhone and/or Android.
 
 ## Milestone 6 — QR code
