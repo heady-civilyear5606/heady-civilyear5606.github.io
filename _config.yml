@@ -1,0 +1,8 @@
+# GitHub Pages settings
+# Keep the project notes off the live website.
+# Note: they are still visible in the public GitHub repository.
+exclude:
+  - SPEC.md
+  - PLAN.md
+  - CLAUDE.md
+  - README.md

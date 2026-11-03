@@ -25,9 +25,6 @@
   <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -49,6 +46,13 @@
       <h1 id="name">SAEED GARFAN</h1>
       <p class="title">Sales Engineer</p>
       <p class="company">INOVEX Group</p>
+    </section>
+
+    <!-- About: short bio -->
+    <section class="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>Sales Engineer at INOVEX Group in Riyadh, helping factories choose the right coating equipment for their production lines. Industrial Engineering graduate with a Lean Six Sigma Green Belt.</p>
+      <p>INOVEX Group provides industrial coating solutions across Saudi Arabia and the GCC.</p>
     </section>
 
     <!-- Action buttons -->
@@ -144,22 +148,13 @@
       </ul>
     </section>
 
-    <!-- About INOVEX (wording must be approved by the company before publishing) -->
-    <section class="about" aria-labelledby="about-heading">
-      <h2 id="about-heading">About INOVEX</h2>
-      <ul>
-        <li>Coating systems: design, manufacturing, installation and support.</li>
-        <li>Authorized WAGNER reseller for the GCC and Middle East.</li>
-        <li>Technology partners: LESTA Robotics and Coatmaster.</li>
-        <li>INOVEX Care: maintenance, spare parts and support.</li>
-      </ul>
-    </section>
-
   </main>
 
   <footer class="site-footer">
-    <p>&copy; 2026 Saeed Garfan</p>
+    <p>&copy; <span id="year">2026</span> Saeed Garfan</p>
   </footer>
+  <!-- Keeps the footer year current; if it fails, 2026 stays -->
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
 
 </div>
 </body>

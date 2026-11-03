@@ -15,6 +15,40 @@
   --font: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 }
 
+/* ---------- Font (self-hosted Montserrat, license: assets/fonts/OFL.txt) ---------- */
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("assets/fonts/montserrat-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("assets/fonts/montserrat-latin-500-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("assets/fonts/montserrat-latin-600-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("assets/fonts/montserrat-latin-700-normal.woff2") format("woff2");
+}
+
 /* ---------- Reset ---------- */
 
 *,
@@ -139,7 +173,7 @@ button {
 
 .logo-sub {
   margin-top: 0.4rem;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.6em;
   margin-right: -0.6em;
@@ -148,7 +182,7 @@ button {
 
 .tagline {
   margin-top: 0.9rem;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.28em;
   color: var(--gold);
@@ -230,7 +264,7 @@ button {
   border: 1px solid var(--gold-line);
   border-radius: 10px;
   background: rgba(255, 255, 255, 0.02);
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
@@ -297,8 +331,7 @@ button {
 
 /* ---------- Contact details ---------- */
 
-.details,
-.about {
+.details {
   padding-top: 1.75rem;
   border-top: 1px solid var(--gold-line);
   margin-bottom: 2rem;
@@ -333,7 +366,7 @@ a.row:active {
 }
 
 .row-label {
-  font-size: 0.66rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.2em;
   text-transform: uppercase;
@@ -345,25 +378,21 @@ a.row:active {
   overflow-wrap: anywhere;
 }
 
-/* ---------- About INOVEX ---------- */
+/* ---------- About (short bio, above the action buttons) ---------- */
 
-.about li {
-  position: relative;
-  padding-left: 1.4rem;
-  margin-bottom: 0.75rem;
+.about {
+  text-align: center;
+  margin-bottom: 1.75rem;
+}
+
+.about p {
   font-size: 0.92rem;
+  line-height: 1.6;
   color: var(--text-muted);
 }
 
-.about li::before {
-  content: "";
-  position: absolute;
-  left: 0.2rem;
-  top: 0.55em;
-  width: 6px;
-  height: 6px;
-  background: var(--gold);
-  transform: rotate(45deg);
+.about p + p {
+  margin-top: 0.6rem;
 }
 
 /* ---------- Footer ---------- */

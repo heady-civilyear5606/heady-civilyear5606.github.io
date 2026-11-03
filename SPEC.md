@@ -20,11 +20,10 @@ People open it by scanning a QR code on his printed business card, then contact 
 - Company website: https://www.inovex-group.com/
 - LinkedIn: https://www.linkedin.com/in/saeed-garfan-38985a441
 - Location: Riyadh, Saudi Arabia (text only, no map link)
-- About INOVEX (short section; wording must be approved by the company before publishing):
-  - Coating systems: design, manufacturing, installation and support.
-  - Authorized WAGNER reseller for the GCC and Middle East.
-  - Technology partners: LESTA Robotics and Coatmaster.
-  - INOVEX Care: maintenance, spare parts and support.
+- About (short bio, max about 3 lines on a phone, shown above the action buttons):
+  - "Sales Engineer at INOVEX Group in Riyadh, helping factories choose the right coating equipment for their production lines. Industrial Engineering graduate with a Lean Six Sigma Green Belt."
+  - "INOVEX Group provides industrial coating solutions across Saudi Arabia and the GCC."
+  - No detailed company claims (partners, dealerships, services); the company website link covers those.
 
 ## Features (version 1)
 1. One page (index.html) showing all the content above.
@@ -40,19 +39,20 @@ People open it by scanning a QR code on his printed business card, then contact 
 Arabic version, personal photo, CV PDF, visit counter, custom domain, contact form, admin panel, any backend or database.
 
 ## Page layout (one screen, top to bottom)
-Header (logo + tagline) -> Identity (name, title, company) -> Action buttons -> Save Contact button -> Contact details list -> About INOVEX -> Footer (© year Saeed Garfan).
+Header (logo + tagline) -> Identity (name, title, company) -> About (short bio) -> Action buttons -> Save Contact button -> Contact details list -> Footer (© year Saeed Garfan, year updated automatically).
 
 ## Data stored
 None. No cookies, no tracking, no forms, no personal data collected from visitors.
 
 ## Technology
 Plain HTML + CSS (tiny JavaScript only if truly needed). No frameworks, no build step.
-Files: index.html, styles.css, saeed-garfan.vcf, assets/ (icons, favicon, preview image), qr/.
+Files: index.html, styles.css, saeed-garfan.vcf, assets/ (icons, favicon, preview image, fonts/), qr/, _config.yml (keeps the .md files off the live site).
 
 ## Design notes
 - Background near-black (#0B0B0B to #151515). Gold accent around #C9A24A with a soft gradient to #E6C77A. Text white/silver (#EDEDED, #BFBFBF).
 - Thin gold divider lines and a diagonal gold accent, like the printed card.
-- One geometric sans-serif font from Google Fonts (for example Montserrat). Uppercase letter-spaced labels.
+- One geometric sans-serif font: Montserrat, self-hosted in assets/fonts/ (no Google Fonts link, so visitors are not sent to Google). Uppercase letter-spaced labels.
+- Smallest text size: 0.75rem (12px).
 - Simple gold line icons as inline SVG (no icon library).
 - Large tap targets (at least 44px high) and good text contrast.
 - Light and fast: no heavy images.

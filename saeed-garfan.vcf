@@ -9,5 +9,6 @@ EMAIL;TYPE=INTERNET,WORK:s.garfan@inovex-group.com
 URL;TYPE=WORK:https://www.inovex-group.com/
 item1.URL:https://www.linkedin.com/in/saeed-garfan-38985a441
 item1.X-ABLabel:LinkedIn
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/saeed-garfan-38985a441
 ADR;TYPE=WORK:;;;Riyadh;;;Saudi Arabia
 END:VCARD
