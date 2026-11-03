@@ -7,8 +7,8 @@
 How to test: open index.html in a browser by double-clicking it. All content is visible and every link opens the right thing.
 
 ## Milestone 2 — Black and gold design
-- [ ] Full design from SPEC.md design notes, mobile-first
-- [ ] Gold line icons on the buttons and contact list
+- [x] Full design from SPEC.md design notes, mobile-first
+- [x] Gold line icons on the buttons and contact list
 How to test: open in the browser, then use the browser's mobile view (F12 -> device toolbar) at 375px and 320px. Nothing overflows, buttons are easy to tap, it looks like the card.
 
 ## Milestone 3 — Save Contact (vCard)
